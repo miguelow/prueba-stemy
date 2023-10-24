@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types';
-
 function FilterName(props) {
   const handleChange = (ev) => {
     const data = {
@@ -11,9 +9,8 @@ function FilterName(props) {
 
   return (
     <>
-      <label htmlFor="filterName">Name</label>
+      <label>Name</label>
       <input
-        className="Filters__input Filters__input--name"
         id="filterName"
         name="name"
         onChange={handleChange}
@@ -22,10 +19,5 @@ function FilterName(props) {
     </>
   );
 }
-
-FilterName.propTypes = {
-  handleFilters: PropTypes.func.isRequired,
-  filterName: PropTypes.string.isRequired,
-};
 
 export default FilterName;

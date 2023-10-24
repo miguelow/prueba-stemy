@@ -4,7 +4,7 @@ function Reset(props) {
   };
 
   return (
-    <button className="Filters__reset" onClick={handleChange}>
+    <button onClick={handleChange}>
       Reset
     </button>
   );
