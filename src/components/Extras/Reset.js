@@ -5,7 +5,7 @@ function Reset(props) {
 
   return (
     <button onClick={handleChange}>
-      Reset
+      Resetear filtros
     </button>
   );
 }
